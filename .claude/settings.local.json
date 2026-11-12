@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.serif.ai)",
+      "WebFetch(domain:www.inreply.ai)",
+      "WebFetch(domain:emailassistants.ai)",
+      "WebFetch(domain:eesel.ai)",
+      "WebFetch(domain:jace.ai)",
+      "Bash(python test_agents.py)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import googleapiclient; print\\('Installed'\\)\")",
+      "Bash(python -m pip install --user google-api-python-client --quiet)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
